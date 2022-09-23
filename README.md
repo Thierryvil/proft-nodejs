@@ -4,7 +4,7 @@ Projeto utilizando NodeJS.
 
 ## Documentação da API
 
-#### Retorna todos os itens
+#### Retorna todos os por vendedor
 
 ```http
   GET /sales/by-seller
@@ -14,7 +14,7 @@ Projeto utilizando NodeJS.
 | :---------- | :--------- | :---------------------------------- |
 | `date` | `Date` | **Obrigatório**. Data para realizar a requisição |
 
-#### Retorna um item
+#### Retorna todos os itens por data
 
 ```http
   GET /sales/by-date/
